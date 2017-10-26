@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    font-family: 'open sans extrabold', 'open sans ';
+     /* position: relative; */
+     background-color: #131313;
+}
+header{
+    width: 100%;
+    height: 4em;
+    margin-top: -3em;
+    /* background-color: #33ffcc; */
+    background-color: #18d4c4;
+     position: fixed; 
+    z-index: 5;
+    align-items: center
+
+}
+footer{
+    background-color: #0c0c0c;
+    width: 100%;
+    height:150px ;
+    
+    /* height: 100%; */
+    max-width: 1600px;
+    margin-top: 3em;
+}
+p{
+    font-family: 'open sans';
+    
+}
+
+#contenedorA{
+    align-self: flex-start;
+    /* position: fixed; */
+    margin-top: 1.3em;
+    margin-left:5em; 
+
+}
+#contenedorA a{
+    text-decoration: none;
+    margin-right: 1em;
+    /* color: rgb(7, 134, 86); */
+    color: rgb(13, 160, 148);
+  
+}
+
+/////////////////////
+
+
+.col-2{
+    
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+
+}
+.col-3{
+    
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+
+}
+.col-4{
+   
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+
+    
+}
+
+.con-general{
+
+    width: 100%;
+    
+    /* height: 100%; */
+    max-width: 1600px;
+    margin-top: 3em;
+    /* background-color: antiquewhite; */
+
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-Wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.justify-between{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center
+        
+    
+    
+}
+
+.imgCaratula{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    /* background-color: rgb(33, 209, 200); */
+    margin-top: 4em;
+    overflow:hidden;
+
+}
+.pTopLogo{
+    margin-top: -15px;
+
+}
+.colorP{
+    color: rgb(95, 95, 95);
+}
+.colorP2{
+    color: rgb(46, 46, 46);
+}
+.anchoP{
+    width: 50%;
+}
+.tamañoP{
+    font-size: 9pt;
+}
+.h1Color{
+    /* color: #33ffcc; */
+    color: #18d4c4;
+}
+.h3Color{
+    color: #333333;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+}
+.con-dos{
+    width: 75%;
+}
+.con-tres{
+    
+    /* border: 1px solid #33ffcc; */
+    border: 1px solid #18d4c4;
+    width: 17em;
+    height: 24em;
+    margin: 0.5em;
+    border-radius: 1em;
+    overflow:hidden;
+    
+}
+.con-tres:hover{
+    border: 1px solid #bb002f;
+    animation-name:bibrar;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+
+}
+@keyframes bibrar{
+    0%{transform: rotate(0.5deg);}
+    25%{transform: rotate(-0.5deg);}
+    50%{transform: rotate(0.5deg);}
+    75%{transform: rotate(-0.5deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.con-img{
+    width: 100%;
+    height: 50%;
+    /* border-radius: 1em; */
+    background-color: grey;
+    overflow: hidden;
+    
+   
+} 
+
+.con-p{
+    width: 80%;
+    height: 50%;
+    border-radius: 1em;
+   
+    
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: -200%;
+    margin-top: 0.4em;
+}
+#mm{
+    width: 200px;
+    height: 200px;
+}
+
+.margenLogo{
+    margin:0.5em ;
+}
+.redes{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid #33ffcc; */
+    border: 1px solid #18d4c4;
+}
+#behance img{
+    width: 70%;
+}
+#linkedin img{
+    width: 56%;
+}
+#instagram img{
+    width: 60%;
+}
+
+.redes:hover{
+    border: 1px solid #bb002f;
+}
+.con-contacto{
+    width: 75%;
+}
+
+.con-img img{
+    margin-left: -20px;
+    /* width: 110%; */
+    height: 115%;
+}
+.con-imgUno {
+    background-image: url("img/diseño.jpg");
+
+}
+.cont-animacion{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1600px;
+    top:0px;
+    z-index: -5;
+
+}
+
+.elementoUno{
+    height: 40px;
+    width: 40px;
+    /* background-image: url("img/logo2017.png"); */
+    /* background-color: red; */
+    margin-top: 200px;
+    margin-left:400px;
+    position: relative;
+
+}
+
+.anima-Uno{
+    animation-name: aUno;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes aUno{ 
+    /* from{opacity: 0;} 
+    to { opacity: 1;} */
+
+    0%{opacity: 0 }
+    25%{opacity:0.5 }
+    50%{ opacity: 0 }
+    75%{opacity: 0.5 }
+    100%{opacity: 0 }
+}
+
+.elementoUno img{
+    
+    height: 100%;
+}
