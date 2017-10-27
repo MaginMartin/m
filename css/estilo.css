@@ -28,7 +28,9 @@ p{
     font-family: 'open sans';
     
 }
-
+a{
+    text-decoration: none;
+}
 #contenedorA{
     align-self: flex-start;
     /* position: fixed; */
