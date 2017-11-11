@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
 body{
     margin: 0;
     font-family: 'open sans extrabold', 'open sans ';
@@ -28,8 +31,14 @@ p{
     font-family: 'open sans';
     
 }
-a{
+a{  
     text-decoration: none;
+    font-family: 'open sans';
+ 
+}
+h1,h2,h3,h4{
+    font-family: 'open sans';
+    font-weight: 800;
 }
 #contenedorA{
     align-self: flex-start;
@@ -43,7 +52,7 @@ a{
     margin-right: 1em;
     /* color: rgb(7, 134, 86); */
     color: rgb(13, 160, 148);
-  
+    font-weight: 800
 }
 
 /////////////////////
@@ -113,6 +122,7 @@ a{
     /* background-color: rgb(33, 209, 200); */
     margin-top: 4em;
     overflow:hidden;
+    /* position: relative; */
 
 }
 .pTopLogo{
@@ -235,7 +245,7 @@ a{
     height: 115%;
 }
 .con-imgUno {
-    background-image: url("img/diseño.jpg");
+    background-image: url("../img/diseño.jpg");
 
 }
 .cont-animacion{
@@ -245,6 +255,8 @@ a{
     max-width: 1600px;
     top:0px;
     z-index: -5;
+    background-image: url("../img/fondo.png");
+    opacity: 0.1;
 
 }
 
