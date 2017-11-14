@@ -81,6 +81,13 @@ h1,h2,h3,h4{
     
 }
 
+#flecha{
+    margin-top: 10px;
+    transform: rotate(90deg);
+
+}
+
+
 .con-general{
 
     width: 100%;
@@ -255,10 +262,21 @@ h1,h2,h3,h4{
     max-width: 1600px;
     top:0px;
     z-index: -5;
-    background-image: url("../img/fondo.png");
-    opacity: 0.1;
+    /* background-image: url("../img/fondo.png"); */
+    opacity: 0.4;
+    overflow: hidden;
 
 }
+
+
+ #nave{
+    position: absolute;
+    
+    
+ }
+
+
+
 
 .elementoUno{
     height: 40px;
@@ -292,3 +310,72 @@ h1,h2,h3,h4{
     
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:635px) {
+    
+        header{
+            align-items: center;
+            width: 100%;
+            height: 5em;
+        }
+    
+        .flex-center-dos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    
+        .margenLogo{
+            
+            margin: 0;
+        }
+    
+        #logo{
+            
+            visibility:hidden;
+          
+        }
+    
+        #contenedorA {
+           
+          
+            margin-top: 1.5em;
+            margin-left:23%;
+        }
+    
+        .anchoP {
+            width: 80%;
+        }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    }
